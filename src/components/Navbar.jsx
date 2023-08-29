@@ -29,7 +29,9 @@ const Navbar = ({ darkMode, toggleTheme }) => {
       }`}
     >
       <div className="nav_content">
-        <h3 className="nav_logo">Where in the world?</h3>
+        <h3 className="nav_logo">
+          Tech<span>Gnius</span>
+        </h3>
         <div
           className={`theme ${darkMode ? "dark_mode" : "light_mode"}`}
           onClick={toggleTheme}

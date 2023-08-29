@@ -46,7 +46,13 @@ a {
 .nav_content .theme:hover {
   cursor: pointer;
 }
-
+.nav_logo {
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.nav_logo span {
+  color: rgb(241, 92, 38);
+}
 .bi-moon,
 .bi-brightness-high-fill {
   padding-right: 8px;
